@@ -10,9 +10,7 @@ minetest .register_node( 'rounded_cubes:rounded_cube',
 
     tiles = { 'rounded_cube.png' },
 
-    light_source = 1,
     paramtype = 'light',
-
     groups = {snappy=1, choppy=2, oddly_breakable_by_hand=2},
     inventory_image = minetest .inventorycube('rounded_cube.png'),
 
@@ -37,17 +35,15 @@ minetest .register_node( 'rounded_cubes:cylindrical_cube',
     mesh = 'cylindrical_cube.obj',
 
     tiles  = {
-      'cylindrical_cube.png', -- top
-      'cylindrical_cube.png', -- bottom
-      'rounded_cube.png', -- left
-      'rounded_cube.png', -- right
-      'rounded_cube.png', -- back
-      'rounded_cube.png', -- front
+      'cylindrical_cube_top.png', -- top
+      'cylindrical_cube_top.png', -- bottom
+      'cylindrical_cube_side.png', -- left
+      'cylindrical_cube_side.png', -- right
+      'cylindrical_cube_side.png', -- back
+      'cylindrical_cube_side.png', -- front
     }, -- tiles
 
-    light_source = 1,
     paramtype = 'light',
-
     groups = {snappy=1, choppy=2, oddly_breakable_by_hand=2},
     inventory_image = minetest .inventorycube('cylindrical_cube.png', 'rounded_cube.png', 'rounded_cube.png'),
 
