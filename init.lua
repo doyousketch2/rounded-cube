@@ -34,7 +34,9 @@ minetest .register_node( 'rounded_cubes:cylindrical_cube',
     drawtype = 'mesh',
     mesh = 'cylindrical_cube.obj',
 
-    tiles  = {
+-- http://www.nathansalapat.com/minetest/b3d4minetest-08
+
+    tiles  = { -- thanks NathanS21
       'cylindrical_cube_top.png', -- top
       'cylindrical_cube_top.png', -- bottom
       'cylindrical_cube_side.png', -- left
