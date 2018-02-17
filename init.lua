@@ -37,8 +37,8 @@ minetest .register_node( 'rounded_cubes:cylindrical_cube',
     mesh = 'cylindrical_cube.obj',
 
     tiles  = {
-      'rounded_cube.png', -- top
-      'rounded_cube.png', -- bottom
+      'cylindrical_cube.png', -- top
+      'cylindrical_cube.png', -- bottom
       'rounded_cube.png', -- left
       'rounded_cube.png', -- right
       'rounded_cube.png', -- back
