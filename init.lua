@@ -17,7 +17,7 @@ minetest .register_node( 'rounded_cubes:rounded_cube',
     selection_box = {
       type = 'fixed',
       fixed = {
-        {-0.495, -0.495, -0.495,  0.495, 0.495, 0.495 },
+        {-0.475, -0.475, -0.475,  0.475, 0.475, 0.475 },
       }, -- fixed
     }, -- selection_box
 
