@@ -11,5 +11,5 @@ This suffix isn't needed in Minetest, and unfortunately,
 prevents Minetest from opening the dir,  
 because the dash symbol isn't a valid character.  
 
-So after you download, and *unzip* in your **minetest/mods** dir,  
+So after you download, and *unzip* in your **mods** dir,  
 **rename it** to simply read "rounded_cubes"
