@@ -8,7 +8,14 @@ minetest .register_node( 'rounded_cubes:rounded_cube',
     drawtype  = 'mesh',
     mesh  = 'rounded_cube.obj',
 
-    tiles  = { 'rounded_cube.png' },
+    tiles  = {
+      'rounded_cube.png', -- top
+      'rounded_cube.png', -- bottom
+      'rounded_cube.png', -- left
+      'rounded_cube.png', -- right
+      'rounded_cube.png', -- back
+      'rounded_cube.png', -- front
+    }, -- tiles
 
     paramtype  = 'light',
     paramtype2  = 'facedir',
@@ -50,7 +57,7 @@ minetest .register_node( 'rounded_cubes:cylindrical_cube',
     paramtype2  = 'facedir',
 
     groups  = {snappy=1, choppy=2, oddly_breakable_by_hand=2},
-    inventory_image  = minetest .inventorycube('cylindrical_cube.png', 'rounded_cube.png', 'rounded_cube.png'),
+    inventory_image  = minetest .inventorycube('cylindrical_cube_top.png', 'cylindrical_cube_side.png', 'cylindrical_cube_side.png'),
 
     selection_box  = {
       type  = 'fixed',
