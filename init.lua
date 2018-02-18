@@ -25,7 +25,7 @@ minetest .register_node( 'rounded_cubes:rounded_cube',
     selection_box  = {
       type  = 'fixed',
       fixed  = {
-        {-0.475, -0.475, -0.475,  0.475, 0.475, 0.475 },
+        {-0.485, -0.485, -0.485,  0.485, 0.485, 0.485 },
       }, -- fixed
     }, -- selection_box
 
@@ -62,7 +62,7 @@ minetest .register_node( 'rounded_cubes:cylindrical_cube',
     selection_box  = {
       type  = 'fixed',
       fixed  = {
-        {-0.475, -0.5, -0.475,  0.475, 0.5, 0.475 },
+        {-0.499, -0.5, -0.499,  0.499, 0.5, 0.499 },
       }, -- fixed
     }, -- selection_box
 
