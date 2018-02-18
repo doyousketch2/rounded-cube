@@ -7,8 +7,8 @@ for Minetest
 
 GitHub adds  "-master" to the dir name to specify what branch it comes from.  
 
-This suffix isn't needed in Minetest, and unfortunately,  
-prevents Minetest from opening the dir,  
+This suffix isn't needed in Minetest,  
+and unfortunately, prevents Minetest from opening the dir,  
 because the dash symbol isn't a valid character.  
 
 So after you download, and *unzip* in your **mods** dir,  
