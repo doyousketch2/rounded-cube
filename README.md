@@ -5,7 +5,7 @@ for Minetest
 >one with a flat top & bottom, so it's partly cylindrical
 
 
-GitHub adds  "-master" to the dir name to specify what branch it comes from.  
+GitHub adds  "-master" to the dir name, to specify what branch it comes from.  
 
 This suffix isn't needed in Minetest,  
 and unfortunately, prevents Minetest from opening the dir,  
